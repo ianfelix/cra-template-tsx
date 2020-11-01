@@ -8,21 +8,19 @@ export default createGlobalStyle`
 
   }
 
-body,
-button,
-input {
-	font-size: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
+  body,
+  button,
+  input {
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
 
 
-img {
-  max-width: 100%;
-}
+  img {
+    max-width: 100%;
+  }
 
-a {
-  text-decoration: none;
-}
-
-
+  a {
+    text-decoration: none;
+  }
 `;
