@@ -1,20 +1,27 @@
 import React from 'react';
 import styled from 'styled-components';
+import GlobalStyles from './styles/global';
 
-const App = () => (
+const App: React.FC = () => (
   <AppContainer>
-    <Intro>Welcome to my CRA-Template!</Intro>
+    <Intro>
+      Welcome to my cra-template-tsx!
+      <span aria-label="emojis" role="img">
+        😁😎
+      </span>
+    </Intro>
+    <GlobalStyles />
   </AppContainer>
 );
 
 export default App;
 
 const AppContainer = styled.div`
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  height: 100vh;
   background: #1d1f27;
 `;
 
