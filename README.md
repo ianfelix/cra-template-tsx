@@ -1,61 +1,32 @@
-<h1 align="center">Welcome to cra-template-tsx 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/ianfelix/cra-template-tsx#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/ianfelix/cra-template-tsx/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://github.com/ianfelix/cra-template-tsx/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/ianfelix/cra-template-tsx" />
-  </a>
-  <a href="https://twitter.com/\_ianfelix" target="_blank">
-    <img alt="Twitter: \_ianfelix" src="https://img.shields.io/twitter/follow/_ianfelix.svg?style=social" />
-  </a>
-</p>
+# cra-template-tsx
 
-> cra-template with ts, eslint, prettier and styled-components
+This is the <strong>unofficial</strong> TSX template for [Create React App](https://github.com/facebook/create-react-app).
 
-## Install
+To use this template, add `--template tsx` when creating a new app.
+
+For example:
 
 ```sh
-yarn add cra-template-tsx
-or
-npm i cra-template-tsx
+yarn create react-app name-app --template tsx
+
+# or
+
+npx create-react-app name-app --template tsx
 ```
 
-```sh
-yarn install
-```
+## What is inside?
 
-## Usage
+This project uses lot of stuff as:
 
-```sh
-yarn start
-```
+- [TypeScript](https://www.typescriptlang.org/)
+- [ReactJS](https://reactjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
-## Run tests
+For more information, please refer to:
 
-```sh
-yarn test
-```
-
-## Author
-
-👤 **Ian Felix <ianfelix030@gmail.com>**
-
-- Twitter: [@\_ianfelix](https://twitter.com/_ianfelix)
-- Github: [@ianfelix](https://github.com/ianfelix)
-- LinkedIn: [@ian-felix](https://linkedin.com/in/ian-felix)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-## 📝 License
-
-Copyright © 2020 [Ian Felix <ianfelix030@gmail.com>](https://github.com/ianfelix).<br />
-This project is [MIT](https://github.com/ianfelix/cra-template-tsx/blob/master/LICENSE) licensed.
-
----
+- [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
+- [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.

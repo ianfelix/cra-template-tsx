@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to cra-template-tsx 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/ianfelix/cra-template-tsx#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -20,25 +20,31 @@
 ## Install
 
 ```sh
-yarn add cra-template-tsx
-or
-npm i cra-template-tsx
-```
+yarn
 
-```sh
-yarn install
+# or
+
+npm i
 ```
 
 ## Usage
 
 ```sh
 yarn start
+
+# or
+
+npm start
 ```
 
 ## Run tests
 
 ```sh
 yarn test
+
+# or
+
+npm test
 ```
 
 ## Author
